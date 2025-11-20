@@ -286,9 +286,9 @@ void assert_failed(uint8_t *file, uint32_t line)
 ## PULSE=250 
 <img width="1379" height="879" alt="image" src="https://github.com/user-attachments/assets/8d0845c5-c556-4a17-a76e-7fe58f86aa16" />
 
-## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+## CIRCUIT DIAGRAM 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ba905d8a-e694-4120-a029-e1c2f99bb1e9" />
  
-
 # DUTY CYCLE AND FREQUENCY CALCULATION 
 ## For Pulse = 250
 ```
