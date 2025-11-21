@@ -147,10 +147,42 @@ FREQUENCY = 1/TOTAL TIME
           = 1 X 10⁻⁶s/60
           = 16,666.666 HZ
 DUTY = TON/TOTAL TIME
-     = 45 X 10⁻⁶s / 15 X 10⁻⁶s
+     = 45 X 10⁻⁶s / 60 X 10⁻⁶s
      = 0.75
 DUTY CYCLE PERCENTAGE = 0.75 X 100
                       = 75%
+```
+## For Pulse = 500
+```
+TON = 3 X 10 X 10⁻⁶s = 30 X 10⁻⁶s
+TOFF = 3 X 10 X 10⁻⁶s = 30 X 10⁻⁶s
+TOTAL TIME= TON + TOFF
+TOTAL TIME= 60 X 10⁻⁶s
+FREQUENCY = 1/TOTAL TIME
+          = 1/60 X 10⁻⁶s
+          = 1 X 10⁻⁶s/60
+          = 16,666.666 HZ
+DUTY = TON/TOTAL TIME
+     = 30 X 10⁻⁶s / 60 X 10⁻⁶s
+     = 0.50
+DUTY CYCLE PERCENTAGE = 0.75 X 100
+                      = 50%
+```
+## For Pulse = 250
+```
+TON = 1.5 X 10 X 10⁻⁶s = 15 X 10⁻⁶s
+TOFF = 4.5 X 10 X 10⁻⁶s = 45 X 10⁻⁶s
+TOTAL TIME= TON + TOFF
+TOTAL TIME= 60 X 10⁻⁶s
+FREQUENCY = 1/TOTAL TIME
+          = 1/60 X 10⁻⁶s
+          = 1 X 10⁻⁶s/60
+          = 16,666.666 HZ
+DUTY = TON/TOTAL TIME
+     = 15 X 10⁻⁶s / 60 X 10⁻⁶s
+     = 0.25
+DUTY CYCLE PERCENTAGE = 0.75 X 100
+                      = 25%
 ```   
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
