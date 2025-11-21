@@ -165,7 +165,7 @@ FREQUENCY = 1/TOTAL TIME
 DUTY = TON/TOTAL TIME
      = 30 X 10⁻⁶s / 60 X 10⁻⁶s
      = 0.50
-DUTY CYCLE PERCENTAGE = 0.75 X 100
+DUTY CYCLE PERCENTAGE = 0.50 X 100
                       = 50%
 ```
 ## For Pulse = 250
@@ -181,7 +181,7 @@ FREQUENCY = 1/TOTAL TIME
 DUTY = TON/TOTAL TIME
      = 15 X 10⁻⁶s / 60 X 10⁻⁶s
      = 0.25
-DUTY CYCLE PERCENTAGE = 0.75 X 100
+DUTY CYCLE PERCENTAGE = 0.25 X 100
                       = 25%
 ```   
 ## Result :
