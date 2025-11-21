@@ -136,74 +136,21 @@ int main(void)
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ba905d8a-e694-4120-a029-e1c2f99bb1e9" />
  
 # DUTY CYCLE AND FREQUENCY CALCULATION 
-## For Pulse = 250
-```
-TON = 250/1000 × TOTAL TIME
-TON = 0.25 × 60 × 10⁻⁶
-   = 15 × 10⁻⁶
-   = 0.000015 seconds
-TOFF = TOTAL TIME – TON
-   = 60 × 10⁻⁶ – 15 × 10⁻⁶
-   = 45 × 10⁻⁶
-   = 0.000045 seconds
-TOTAL TIME = TON + TOFF
-   = 0.000015 + 0.000045
-   = 0.000060 seconds
-FREQUENCY = 1 / TOTAL TIME
-   = 1 / 0.000060
-   = 16666.67 Hz
-DUTY CYCLE = TON / TOTAL TIME
-   = 0.000015 / 0.000060
-   = 0.25
-DUTY CYCLE (%)
-   = 0.25 × 100
-   = 25%
-```
-## For Pulse = 500
-```
-TON = 500/1000 × TOTAL TIME
-   = 0.5 × 60 × 10⁻⁶
-   = 30 × 10⁻⁶
-   = 0.000030 seconds
-TOFF = TOTAL TIME – TON
-   = 60 × 10⁻⁶ – 30 × 10⁻⁶
-   = 30 × 10⁻⁶
-   = 0.000030 seconds
-TOTAL TIME = TON + TOFF
-   = 0.000030 + 0.000030
-   = 0.000060 seconds
-FREQUENCY = 1 / TOTAL TIME
-   = 1 / 0.000060
-   = 16666.67 Hz
-DUTY CYCLE = TON / TOTAL TIME
-   = 0.000030 / 0.000060
-   = 0.5
-DUTY CYCLE (%)
-   = 0.5 × 100
-   = 50%
-```
 ## For Pulse = 750
 ```
-TON = 750/1000 × TOTAL TIME
-   = 0.75 × 60 × 10⁻⁶
-   = 45 × 10⁻⁶
-   = 0.000045 seconds
-TOFF = TOTAL TIME – TON
-   = 60 × 10⁻⁶ – 45 × 10⁻⁶
-   = 15 × 10⁻⁶
-   = 0.000015 seconds
-TOTAL TIME = TON + TOFF
-   = 0.000045 + 0.000015
-   = 0.000060 seconds
-FREQUENCY = 1 / TOTAL TIME
-   = 1 / 0.000060
-   = 16666.67 Hz
-DUTY CYCLE = TON / TOTAL TIME
-   = 0.000045 / 0.000060
-   = 0.75
-DUTY CYCLE (%)
-   = 0.75 × 100
-   = 75%
+TON = 4.5 X 10 X 10⁻⁶s = 45 X 10⁻⁶s
+TOFF = 1.5 X 10 X 10⁻⁶s = 15 X 10⁻⁶s
+TOTAL TIME= TON + TOFF
+TOTAL TIME= 60 X 10⁻⁶s
+FREQUENCY = 1/TOTAL TIME
+          = 1/60 X 10⁻⁶s
+          = 1 X 10⁻⁶s/60
+          = 16,666.666 HZ
+DUTY = TON/TOTAL TIME
+     = 45 X 10⁻⁶s / 15 X 10⁻⁶s
+     = 0.75
+DUTY CYCLE PERCENTAGE = 0.75 X 100
+                      = 75%
 ```   
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
